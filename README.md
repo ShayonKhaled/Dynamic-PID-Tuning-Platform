@@ -5,9 +5,14 @@
 
 The **Dynamic PID Tuning Platform** is a user-friendly test rig built to make PID tuning easier for robotics projects. It’s specifically designed for tuning the PID settings of DJI Robomaster M3508 P19 motors, which are controlled using C620 ESCs via the CAN protocol.
 
-With this platform, you can easily adjust PID parameters and monitor real-time feedback on setpoints, motor speed (RPM), and control outputs. The data is displayed on an onboard LCD and can also be visualized using an external Python-based tool for more detailed analysis.
+With this platform, you can easily adjust PID parameters and monitor real-time feedback on setpoints, motor speed (RPM), and control outputs. The data is displayed on an onboard LCD and can also be visualized using an external Python-based software for more detailed analysis.
+
+
+https://github.com/user-attachments/assets/6bd0d995-9b76-4201-8e53-ab82745cfa9e
+
 
 ---
+
 
 ## **Features**
 - **Real-time PID Tuning:** Adjust P, I, and D values using rotary encoders.
