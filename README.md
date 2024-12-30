@@ -8,7 +8,11 @@ The **Dynamic PID Tuning Platform** is a user-friendly test rig built to make PI
 With this platform, you can easily adjust PID parameters and monitor real-time feedback on setpoints, motor speed (RPM), and control outputs. The data is displayed on an onboard LCD and can also be visualized using an external Python-based software for more detailed analysis.
 
 Watch this video to see it in action:
-https://github.com/user-attachments/assets/6bd0d995-9b76-4201-8e53-ab82745cfa9e
+
+
+
+https://github.com/user-attachments/assets/ace8c13b-92a7-4c02-9562-aeda0b1e9ec8
+
 
 
 ---
