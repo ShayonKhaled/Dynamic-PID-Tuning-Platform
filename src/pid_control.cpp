@@ -6,8 +6,8 @@ float previousError = 0.0;
 float integral = 0.0;
 
 // Define integral windup limits
-const float intMin = -125.0;  // Adjust based on your system
-const float intMax = 125.0;
+const float intMin = -5000.0;  // Adjust based on your system
+const float intMax = 5000.0;
 
 // PID control computation function
 float computePID(float setpoint, float currentSpeed)

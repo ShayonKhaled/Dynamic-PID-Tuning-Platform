@@ -53,9 +53,9 @@ void loop()
     
     // Read from the designated kP kI kD encoders and multiply them by pidStepSize to allow smaller steps
     pVal = P_count * pidStepSize;
-    iVal = I_count * pidStepSize;
+    iVal = I_count * 0.0001;
     dVal = D_count * pidStepSize;
-    setpointVal = setpoint_count * setpointStepSize;
+    setpointVal = constrain(setpoint_count * setpointStepSize, 0, 9000);
 
     short rpm = receiveRPM(); //receive RPM from the encoder of the motor
     currentSpeed = (rpm == 0) ? 0 : rpm; //if RPM is not 0, copy the value to currentSpeed
