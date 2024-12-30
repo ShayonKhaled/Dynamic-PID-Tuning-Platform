@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"name": "PID Test Suite",
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"usingfloatpointvalues": "c",
+			"stdio.h": "c",
+			"atod.c": "cpp",
+			"__locale": "cpp",
+			"stack": "c",
+			"stdlib.h": "c"
+		}
+	}
+}
