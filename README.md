@@ -1,4 +1,5 @@
 # **Dynamic PID Tuning Platform**
+![IMG_4906](https://github.com/user-attachments/assets/1ad1c912-7405-4aba-ab89-25f20ea7fc5a)
 
 ## **Overview**
 
@@ -57,6 +58,8 @@ For easier connections, it is recommended to use a Freenove ESP32 breakout board
   - Adjustable P, I, D values using rotary encoders.
   - Real-time CAN communication with the C620 ESC.
   - CSV-formatted serial data output for visualization.
+  
+<img width="1710" alt="Screenshot 2024-12-31 at 7 37 54 2" src="https://github.com/user-attachments/assets/a3b74c28-5ce6-4ac4-a1b2-2407d98c5ac9" />
 
 ### **Python Visualization Tool**
 - Plots real-time graphs of:
@@ -89,7 +92,12 @@ For easier connections, it is recommended to use a Freenove ESP32 breakout board
      ```bash
      python3 pidVisualizer.py
      ```
-   - Select the serial port of your ESP32 from the drop down menu and hit the connect button. The ESP32 must be connected to your computer. 
+   - Select the serial port of your ESP32 from the drop down menu and hit the connect button. The ESP32 must be connected to your computer.
+   
+   <img width="653" alt="Screenshot 2024-12-31 at 7 38 30 2" src="https://github.com/user-attachments/assets/53ec4f9d-39d8-46d9-b901-53c5f3cdb4d0" />
+
+  <img width="653" alt="Screenshot 2024-12-31 at 7 38 39 2" src="https://github.com/user-attachments/assets/0b40b070-1f4b-4c61-aa90-dce2c4cf6f85" />
+
 
 ---
 
