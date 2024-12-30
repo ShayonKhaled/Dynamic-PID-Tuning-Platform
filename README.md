@@ -99,6 +99,33 @@ For easier connections, it is recommended to use a Freenove ESP32 breakout board
 
 ---
 
+
+## **Building the DIN Rail Test Rack**
+
+To house the components and provide a modular design, I used **4X 250mm DIN rails** to build the test rack. The stands for the rails were designed by **PlasticXYZ** and can be found here: [DIN Rail Test Rack Stands by PlasticXYZ](https://www.printables.com/model/150786-din-rail-test-rack).
+
+### **Custom Mount Designs**
+I designed custom mounts for the following components:
+- **Freenove ESP32 Breakout Board**
+- **MCP2515 CAN Transceiver Module**
+- **Rotary Encoders**
+- **20x4 LCD**
+
+These designs are included in the **"3D Printables"** folder in both **.STL** and **.STEP** formats. You can choose to:
+1. **Bolt the mounts directly onto the DIN rail**, or
+2. **Use DIN clips** (designed by PlasticXYZ) to attach them. The DIN clips can be mounted or unmounted easily from the DIN rails. You can find the DIN clips design here: [DIN Rail Clip by PlasticXYZ](https://www.printables.com/model/161740-din-rail-clip).
+
+### **Mounting Specifications**
+- **Mounting Holes:** 18mm apart. These can be modified using the provided `.STEP` files if needed.
+- **Fasteners Used:**
+  - **Modules:** Mounted with self-tapping screws.
+  - **DIN Clips:** Mounted with M3 bolts (6mm length).
+- **No Heat Press Inserts:** The mounts were specifically designed for simplicity, and all components are secured with self-tapping screws or bolts.
+
+This setup provides a sturdy, modular, and customizable framework for the PID tuning platform, making it easy to assemble, modify, and expand as needed.
+
+
+
 ## **License**
 This project is licensed under the GNU General Public License v3.0 License. See the [LICENSE](LICENSE) file for details.
 
