@@ -166,6 +166,7 @@ def createApp():
         selectedPort.set(availablePorts[0])  # Default to the first available port
     else:
         selectedPort.set("No ports available")
+        selected_port = StringVar(value=available_ports[0])
     tk.Label(controlFrame, text="Select Serial Port:", fg="white", bg="black").pack(side=tk.LEFT, padx=5, pady=10)
     portDropdown = OptionMenu(controlFrame, selectedPort, *availablePorts)
     portDropdown.config(bg="black", fg="white")
